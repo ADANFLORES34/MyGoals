@@ -8,10 +8,7 @@ export const CATEGORIES = [
   new Category('c4', 'Atletico de Madrid', '#f5d142'),
   new Category('c5', 'Porto FC', '#368dff'),
   new Category('c6', 'Halcones FC', '#41d95d'),
-  new Category('c7', 'Alemania', '#9eecff'),
-  new Category('c8', 'Chivas', '#b9ffb0'),
-  new Category('c9', 'America', '#ffc7ff'),
-  new Category('c10', 'AC MILLAN', '#47fced')
+  
 ];
 
 export const MEALS = [
@@ -73,25 +70,22 @@ export const MEALS = [
   new Meal(
     'm3',
     ['c3'],
-    'Classic Hamburger',
-    'pricey',
-    'simple',
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+    'Real Sociedad',
+    'Todo esfuerzo tiene su recompensa',
+    'Blanco Azul y Naranja',
+    'https://www.google.com/url?sa=i&url=https%3A%2F%2Fresultados.as.com%2Fresultados%2Fficha%2Fequipo%2Fr_sociedad%2F16%2F&psig=AOvVaw0FVNBnIMzb6ShmkEhU623_&ust=1718232973812000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMC5xuLS1IYDFQAAAAAdAAAAABAE',
     45,
     [
-      '300g Cattle Hack',
-      '1 Tomato',
-      '1 Cucumber',
-      '1 Onion',
-      'Ketchup',
-      '2 Burger Buns'
+      '2 titulos de liga',
+      '3 copas del Rey',
+      '1 Super copa de España',
+      '1 copa Internacional'
+    
     ],
     [
-      'Form 2 patties',
-      'Fry the patties for c. 4 minutes on each side',
-      'Quickly fry the buns for c. 1 minute on each side',
-      'Bruch buns with ketchup',
-      'Serve burger with tomato, cucumber and onion'
+      'La Real Sociedad es un club español, de la ciudad de San Sebastián (País Vasco) fundado en 1909 ',
+      'a través del Club Ciclista de San Sebastián y comenzó llamándose Ciclista Football-Club.',
+      'El equipo juega en el Reale Arena que por motivos de patrocinio es nombrado así desde la temporada 2019/2020.'
     ],
     false,
     false,
@@ -102,29 +96,24 @@ export const MEALS = [
   new Meal(
     'm4',
     ['c4'],
-    'Wiener Schnitzel',
-    'luxurious',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+    'Atletico De Madrid',
+    '!Nunca dejes de creer',
+    'Corazon y Coraje',
+    'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2F806566614488886804%2F&psig=AOvVaw0q3ig1l-XchxPP5y21Kkxr&ust=1718233537351000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJjGkvLU1IYDFQAAAAAdAAAAABAE',
     60,
     [
-      '8 Veal Cutlets',
-      '4 Eggs',
-      '200g Bread Crumbs',
-      '100g Flour',
-      '300ml Butter',
-      '100g Vegetable Oil',
-      'Salt',
-      'Lemon Slices'
+      '11 Ligas Españolas',
+      '10 Copas Del Rey',
+      '2 Super Copas De España',
+      '1 Copa Confederaciones',
+      '73 Campeonatos Regionales',
+      '65 Copas Nacionales'
+      
     ],
     [
-      'Tenderize the veal to about 2–4mm, and salt on both sides.',
-      'On a flat plate, stir the eggs briefly with a fork.',
-      'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
-      'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
+     'La historia del Atlético de Madrid se remonta a 1903, cuando un grupo de estudiantes vascos',
+     'fundaron un club en Madrid que funcionaría como "sucursal" del Athletic Club. ',
+      'El Athletic Club Sucursal de Madrid funcionaría como un filial hasta 1921, vistiendo como el conjunto bilbaíno'
     ],
     false,
     false,
@@ -134,30 +123,25 @@ export const MEALS = [
 
   new Meal(
     'm5',
-    ['c2', 'c5', 'c10'],
-    'Salad with Smoked Salmon',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+    ['c5'],
+    'Porto FC',
+    'Siempre PREPARADOS',
+    'https://www.google.com/imgres?q=lema%20del%20porto%20FC&imgurl=https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEiXOM5GxKTDm-S1HVqolB0-3sDTmraYAy2wOUyGm9jPoCBaYCp9Y3HxcOyx5QHNHG6gCNO0NK3C1MHx74UpK9nD0THgvg9wW9m0pCFKtb9iYroGSzHH8SMVR1RXnNhQ9d2LHJw9AkjNrjw%2Fs1600%2FSempre%2BPreparados.jpg&imgrefurl=https%3A%2F%2Fwww.nuevaeradeportiva.com%2F2014%2F06%2Fya-se-conocen-las-dos-equipaciones-del.html&docid=8KRGR1IbIGLFmM&tbnid=XsGK7z6VKHvDwM&vet=12ahUKEwi5jPbL1tSGAxW5CjQIHZccDjEQM3oECGIQAA..i&w=600&h=600&hcb=2&ved=2ahUKEwi5jPbL1tSGAxW5CjQIHZccDjEQM3oECGIQAA',
     15,
     [
-      'Arugula',
-      "Lamb's Lettuce",
-      'Parsley',
-      'Fennel',
-      '200g Smoked Salmon',
-      'Mustard',
-      'Balsamic Vinegar',
-      'Olive Oil',
-      'Salt and Pepper'
+      '2 Champions Ligue',
+      "2 Mundiales De Clubes",
+      '30 Campion De Portugal',
+      '1 copa de portugal',
+      '2 copas internacionales' 
     ],
     [
-      'Wash and cut salad and herbs',
-      'Dice the salmon',
-      'Process mustard, vinegar and olive oil into a dessing',
-      'Prepare the salad',
-      'Add salmon cubes and dressing'
-    ],
+    'El Futbol Clube do Porto es un club de fútbol portugués con sede en Oporto, siendo el equipo',
+    'luso de mayor éxito en las competencias internacionales de clubes.',
+    'Ha ganado un total de siete títulos internacionales oficiales, que incluyen dos Champions (en 1987, como la Copa de Europa',
+    ' y 2004), dos UEFA Europa League (en 2003,',
+    ' como la Copa de la UEFA, y 2011), una Supercopa (en 1987), y dos Copas Intercontinentales (en 1987 y 2004)'
+  ],
     true,
     false,
     true,
@@ -166,30 +150,23 @@ export const MEALS = [
 
   new Meal(
     'm6',
-    ['c6', 'c10'],
-    'Delicious Orange Mousse',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+    ['c6'],
+    'Halcones FC',
+    'CBTIS 116',
+    'JUEGA LIMPIO,SIENTE EL JUEGO',
+    'https://www.google.com/imgres?q=logo%20cbtis%20116&imgurl=https%3A%2F%2Fcbtis116.simdif.com%2Fimages%2Fpublic%2Fsd_619492e62e5bc.jpg%3Fno_cache%3D1637130495&imgrefurl=https%3A%2F%2Fcbtis116.simdif.com%2F&docid=V6QIHHa6wj_qPM&tbnid=EJ8uczA0RIhLUM&vet=12ahUKEwiurM2P2NSGAxWJHUQIHQRaAEwQM3oECGMQAA..i&w=700&h=393&hcb=2&ved=2ahUKEwiurM2P2NSGAxWJHUQIHQRaAEwQM3oECGMQAA',
     240,
     [
-      '4 Sheets of Gelatine',
-      '150ml Orange Juice',
-      '80g Sugar',
-      '300g Yoghurt',
-      '200g Cream',
-      'Orange Peel'
+      '3 CONADEMS',
+      '1 COPA IBERO',
+      '1 INTERPREPAS',
+      'MEJOR PLANTEL '
     ],
     [
-      'Dissolve gelatine in pot',
-      'Add orange juice and sugar',
-      'Take pot off the stove',
-      'Add 2 tablespoons of yoghurt',
-      'Stir gelatin under remaining yoghurt',
-      'Cool everything down in the refrigerator',
-      'Whip the cream and lift it under die orange mass',
-      'Cool down again for at least 4 hours',
-      'Serve with orange peel'
+      'Está organizado en seis semestres e integrados por asignaturas y módulos que están distribuidos en tres componentes',
+      'de formación: básica, propedéutica y profesional cubriendo un total de 2800 horas',
+      ' por semestre en 16 semanas y un trabajo promedio de 30 horas de trabajo académico por semana.'
+      
     ],
     true,
     false,
@@ -197,139 +174,4 @@ export const MEALS = [
     false
   ),
 
-  new Meal(
-    'm7',
-    ['c7'],
-    'Pancakes',
-    'affordable',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
-    20,
-    [
-      '1 1/2 Cups all-purpose Flour',
-      '3 1/2 Teaspoons Baking Powder',
-      '1 Teaspoon Salt',
-      '1 Tablespoon White Sugar',
-      '1 1/4 cups Milk',
-      '1 Egg',
-      '3 Tablespoons Butter, melted'
-    ],
-    [
-      'In a large bowl, sift together the flour, baking powder, salt and sugar.',
-      'Make a well in the center and pour in the milk, egg and melted butter; mix until smooth.',
-      'Heat a lightly oiled griddle or frying pan over medium high heat.',
-      'Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.'
-    ],
-    true,
-    false,
-    true,
-    false
-  ),
-
-  new Meal(
-    'm8',
-    ['c8'],
-    'Creamy Indian Chicken Curry',
-    'pricey',
-    'challenging',
-    'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
-    35,
-    [
-      '4 Chicken Breasts',
-      '1 Onion',
-      '2 Cloves of Garlic',
-      '1 Piece of Ginger',
-      '4 Tablespoons Almonds',
-      '1 Teaspoon Cayenne Pepper',
-      '500ml Coconut Milk'
-    ],
-    [
-      'Slice and fry the chicken breast',
-      'Process onion, garlic and ginger into paste and sauté everything',
-      'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
-      'Add coconut milk',
-      'Serve with rice'
-    ],
-    true,
-    false,
-    false,
-    true
-  ),
-
-  new Meal(
-    'm9',
-    ['c9'],
-    'Chocolate Souffle',
-    'affordable',
-    'hard',
-    'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
-    45,
-    [
-      '1 Teaspoon melted Butter',
-      '2 Tablespoons white Sugar',
-      '2 Ounces 70% dark Chocolate, broken into pieces',
-      '1 Tablespoon Butter',
-      '1 Tablespoon all-purpose Flour',
-      '4 1/3 tablespoons cold Milk',
-      '1 Pinch Salt',
-      '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
-      '2 Large Egg Whites',
-      '1 Pinch Cream of Tartar',
-      '1 Tablespoon white Sugar'
-    ],
-    [
-      'Preheat oven to 190°C. Line a rimmed baking sheet with parchment paper.',
-      'Brush bottom and sides of 2 ramekins lightly with 1 teaspoon melted butter; cover bottom and sides right up to the rim.',
-      'Add 1 tablespoon white sugar to ramekins. Rotate ramekins until sugar coats all surfaces.',
-      'Place chocolate pieces in a metal mixing bowl.',
-      'Place bowl over a pan of about 3 cups hot water over low heat.',
-      'Melt 1 tablespoon butter in a skillet over medium heat. Sprinkle in flour. Whisk until flour is incorporated into butter and mixture thickens.',
-      'Whisk in cold milk until mixture becomes smooth and thickens. Transfer mixture to bowl with melted chocolate.',
-      'Add salt and cayenne pepper. Mix together thoroughly. Add egg yolk and mix to combine.',
-      'Leave bowl above the hot (not simmering) water to keep chocolate warm while you whip the egg whites.',
-      'Place 2 egg whites in a mixing bowl; add cream of tartar. Whisk until mixture begins to thicken and a drizzle from the whisk stays on the surface about 1 second before disappearing into the mix.',
-      'Add 1/3 of sugar and whisk in. Whisk in a bit more sugar about 15 seconds.',
-      'whisk in the rest of the sugar. Continue whisking until mixture is about as thick as shaving cream and holds soft peaks, 3 to 5 minutes.',
-      'Transfer a little less than half of egg whites to chocolate.',
-      'Mix until egg whites are thoroughly incorporated into the chocolate.',
-      'Add the rest of the egg whites; gently fold into the chocolate with a spatula, lifting from the bottom and folding over.',
-      'Stop mixing after the egg white disappears. Divide mixture between 2 prepared ramekins. Place ramekins on prepared baking sheet.',
-      'Bake in preheated oven until scuffles are puffed and have risen above the top of the rims, 12 to 15 minutes.'
-    ],
-    true,
-    false,
-    true,
-    false
-  ),
-  new Meal(
-    'm10',
-    ['c2', 'c5', 'c10'],
-    'Asparagus Salad with Cherry Tomatoes',
-    'luxurious',
-    'simple',
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
-    30,
-    [
-      'White and Green Asparagus',
-      '30g Pine Nuts',
-      '300g Cherry Tomatoes',
-      'Salad',
-      'Salt, Pepper and Olive Oil'
-    ],
-    [
-      'Wash, peel and cut the asparagus',
-      'Cook in salted water',
-      'Salt and pepper the asparagus',
-      'Roast the pine nuts',
-      'Halve the tomatoes',
-      'Mix with asparagus, salad and dressing',
-      'Serve with Baguette'
-    ],
-    true,
-    true,
-    true,
-    true
-  )
 ];
