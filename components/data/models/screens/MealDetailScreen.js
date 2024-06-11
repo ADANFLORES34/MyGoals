@@ -3,7 +3,7 @@ import { Image, Text, View, StyleSheet, ScrollView } from "react-native"
 import { MEALS } from '../data/dummy_data'
 import MealDetails from "../components/MealDetails"
 
-function MealDetailScreen({route, navigation}) {
+function MealDetailScree({route, navigation}) {
     const mealId = route.params.mealId
 
     const selectedMeal = MEALS.find((meal) => meal.id === mealId)
@@ -28,7 +28,7 @@ function MealDetailScreen({route, navigation}) {
 
 }
 
-export default MealDetailScreen
+export default MealDetailScree
 
 const styles = StyleSheet.create({
     image: {
